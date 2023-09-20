@@ -1,5 +1,5 @@
 
-var myFullName;                        
+var myFullName;                      
 console.log(myFullName);
 var myFullName="Manjeet Gawali"
 console.log(myFullName);
