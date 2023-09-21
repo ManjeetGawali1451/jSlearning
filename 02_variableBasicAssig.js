@@ -2,7 +2,9 @@
 
 console.log("-------Assignment 01------");
 console.log("-------(1st Part)-------");
-console.log("--------Number-----------");
+
+
+console.log("*******Number*******");
 
 var pincode=413307
 console.log("Pin Code Number ==>",pincode,typeof(pincode));
