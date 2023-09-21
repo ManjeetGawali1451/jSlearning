@@ -29,7 +29,7 @@ console.log("Are You Graduate==>",graduate,typeof(graduate));
 
 
 console.log("---------Part 2--------");
-console.log("**********Diffrence Between undefined and Null");
+console.log("........Diffrence Between undefined and Null........");
 console.log("-----undefined");
 var myName=
 console.log("value==>",myName);
