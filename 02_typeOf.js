@@ -3,6 +3,7 @@
 console.log("-------Assignment 2------");
 console.log("-------Step1---------");
 
+
 var bankName=
 console.log("Bank Name==>",bankName);
 var bankName="SBI Bank"
