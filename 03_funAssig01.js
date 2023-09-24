@@ -2,8 +2,8 @@
 
 
 
-console.log("=====Assignment 2 ========");
-console.log("*****Part 1********");
+console.log("===== Assignment 2 ========");
+console.log("***** Part 1 ********");
 console.log("----- Functions with No Arguments and No Return Type ---------");
 
 function aboutMe(){  //function name
@@ -13,7 +13,7 @@ function aboutMe(){  //function name
 aboutMe() //function call
 
 console.log("====================================================================");
-console.log("*****Part 2*****");
+console.log("***** Part 2 *****");
 console.log("------ Function With argumens and no return type --------");
 
 function myPersonalDetails(FirstName,LastName,CollegeName){  //function arguments
@@ -24,8 +24,8 @@ function myPersonalDetails(FirstName,LastName,CollegeName){  //function argument
  myPersonalDetails("Mohit","Sharma","Sinhgad Institute")//function call
 
 console.log("======================================================================");
-console.log("********Part 3*********");
-console.log("Swap the values");
+console.log("******** Part 3*********");
+console.log("-------- Swap the values------");
 
 function swap(num1,num2){
             console.log("Before Swap==>",num1,num2);
