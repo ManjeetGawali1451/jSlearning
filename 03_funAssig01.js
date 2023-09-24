@@ -47,8 +47,7 @@ function addThreevalues(num1,num2,num3) {
                 var result=num1+num2+num3
                 return result
 
-                                
-        }
+            }
 
     var addition=addThreevalues(10.63,600,40)
     var result=addThreevalues("Hello", " " ,"Good Morning")
