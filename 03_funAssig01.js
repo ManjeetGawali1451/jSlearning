@@ -51,9 +51,6 @@ function addThreevalues(num1,num2,num3) {
 
     var addition=addThreevalues(10.63,600,40)
     var result=addThreevalues("Hello", " " ,"Good Morning")
-            console.log("Value 1 ==>10.63");
-            console.log("Value 2 ==>600");
-            console.log("value 3==>40");
             console.log("The total Sum of three values are:",addition);
             console.log("The sum of three values are:",result);            
 
