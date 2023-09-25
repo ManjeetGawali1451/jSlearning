@@ -21,6 +21,11 @@ console.log("Character at index 0 is: ", charAt0);
 var charAt=greet.charAt(5)
 console.log("The character of index 5 is:",charAt);
 
+var lastIndex=greet.charAt(greet.length-1)
+console.log("The last Index charcter is:",lastIndex);
+
+var thirdLast=greet.charAt(greet.length-3)
+console.log("The Third Last character is:",thirdLast);
 
 console.log("========== concatenation =============== ");
 var firstName = "Jenny";
