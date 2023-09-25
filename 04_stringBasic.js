@@ -18,6 +18,9 @@ var charAt0 = greet.charAt(0);
 
 console.log("Character at index 0 is: ", charAt0);
 
+var charAt=greet.charAt(5)
+console.log("The character of index 5 is:",charAt);
+
 
 console.log("========== concatenation =============== ");
 var firstName = "Jenny";
