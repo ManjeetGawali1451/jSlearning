@@ -44,15 +44,14 @@ console.log("************Part 4*********");
 console.log("Log The addition of three paramneters or Argumnets");
 
 function addThreevalues(num1,num2,num3) {
-                var result=num1+num2+num3
-                return result
+                console.log(num1+num2+num3);
+                
 
             }
-
-    var addition=addThreevalues(10.63,600,40)
-    var result=addThreevalues("Hello", " " ,"Good Morning")
-            console.log("The total Sum of three values are:",addition);
-            console.log("The sum of three values are:",result);            
+    console.log("The sum of three values are:");
+    addThreevalues(10.63,600,40)
+    addThreevalues("Hello", " " ,"Good Morning")
+                        
 
             
             
