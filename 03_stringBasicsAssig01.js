@@ -1,6 +1,7 @@
 
 
 function stringBasics(){ 
+            
             console.log("My dream company is Nvidia")
             console.log("My Hobbies are:");
             var myhobby1="Like to ride Bikes"
@@ -9,6 +10,7 @@ function stringBasics(){
             console.log("->",myhobby2);
             var myhobby3="Like to play Cricket"
             console.log("->",myhobby3);
-            console.log("The sum of all hobbies are:43")
-           }
-            stringBasics("Like to ride Bikes","Coding","Like to play Cricket")
+            myhobby1,myhobby2,myhobby3.length
+            console.log(myhobby1,myhobby2,myhobby3);
+          }
+            stringBasics()
