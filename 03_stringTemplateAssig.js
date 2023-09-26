@@ -1,9 +1,9 @@
 
 
- console.log("======String Templete=======");
+ console.log("====== String Templete =======");
 
            function stringBasics(){ 
-            console.log(`My dream company is "Nvidia"`)
+            console.log(`My dream company is: "Nvidia"`)
             var myhobby1="Coding"
             var myhobby2="Like to Ride bikes"
             var myhobby3="Like to Play cricket"   
