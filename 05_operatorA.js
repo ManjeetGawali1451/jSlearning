@@ -37,7 +37,6 @@ console.log("********** Function with no argument and no return type =========")
 console.log("--------- Section A -------");
 function reactDeveloper(){
     var str="I am React Developer"
-    console.log("-------- Section A ----------");
     var result=str.length
     console.log('Given String is "I am React Developer"');
     console.log(`The length of given string is ${result}`);
