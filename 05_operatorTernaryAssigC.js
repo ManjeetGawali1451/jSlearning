@@ -2,7 +2,7 @@
 
 console.log("******** Assignment *********");
 console.log("======== Male Marraige Eligibility =========");
-
+console.log("========= Step 1 =========");
 function maleMarriageEligibility(gender,age,boyName) {
         var result=gender=='Male' && age>=21
         ?`Hey ${boyName} You are Eligible for marriage`
