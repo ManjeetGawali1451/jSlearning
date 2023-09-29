@@ -1,6 +1,5 @@
 
-console.log("********* Assignment ***********");
-console.log("========== Function Expression =======");  
+console.log("********* Assignment ***********");  
 console.log("---------- Step 1 ----------");
 
 
@@ -25,7 +24,6 @@ console.log("----------- Step 2 -------------");
 console.log(`Type of function expression is: ${typeof(square)}`);
 
 console.log("----------- Step 3 -------------");
-console.log("------------ Area of Rectanagle -------");
 var Area=function(length,width){
             return length*width
     }
