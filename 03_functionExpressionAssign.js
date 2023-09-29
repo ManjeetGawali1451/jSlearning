@@ -43,3 +43,26 @@ var swapValues=function(valueOne,valueTwo){
     }
     swapValues("Mahi","Raina")
     swapValues(55,77)
+
+console.log("----------- Step 5 -----------");
+var one=function(str){
+        var str= " JS the most popular language in internet"
+        console.log(str);
+        var result=str.length
+        var charAt=str.charAt(6)
+        var charAt2=str.charAt(11)
+        var lastIndex=str.charAt(str.length-1)
+        var firstChar=str.charAt(1)
+        var words=str.split(" ")
+        
+        
+
+        console.log(`The total character in given string is ${result}`);
+        console.log(`Chracter on Index number 6 is :${charAt}`);
+        console.log(`Chracter on Index number 11 is :${charAt2}`);
+        console.log(`Character on last Index is : ${lastIndex}`);
+        console.log(`Character on first Index is : ${firstChar}`);
+        console.log(`The total words are available in the string is: ${words.length}`);
+        
+    }
+    one()
