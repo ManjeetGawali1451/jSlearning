@@ -23,3 +23,11 @@ console.log(`The square of 89 is ${square6}`);
 console.log(`The square of 59 is ${square7}`);
 console.log("----------- Step 2 -------------");
 console.log(`Type of function expression is: ${typeof(square)}`);
+
+console.log("----------- Step 3 -------------");
+console.log("------------ Area of Rectanagle -------");
+var Area=function(length,width){
+            return length*width
+    }
+    var rectangle=Area(499,917)
+    console.log(`The area of rectangle plot is==> ${rectangle}`);
