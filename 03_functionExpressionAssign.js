@@ -45,15 +45,17 @@ var swapValues=function(valueOne,valueTwo){
     swapValues(55,77)
 
 console.log("----------- Step 5 -----------");
-var one=function(str){
+var one=function(square){
         var str= " JS the most popular language in internet"
-        console.log(str);
+        
         var result=str.length
         var charAt=str.charAt(6)
         var charAt2=str.charAt(11)
         var lastIndex=str.charAt(str.length-1)
         var firstChar=str.charAt(1)
         var words=str.split(" ")
+        var square=8*8
+        
         
         
 
@@ -63,6 +65,11 @@ var one=function(str){
         console.log(`Character on last Index is : ${lastIndex}`);
         console.log(`Character on first Index is : ${firstChar}`);
         console.log(`The total words are available in the string is: ${words.length}`);
+        console.log(`The square of words length is : ${square}`);
+
+        
         
     }
     one()
+    
+        
