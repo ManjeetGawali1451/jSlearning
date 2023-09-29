@@ -63,7 +63,7 @@ var one=function(square){
         console.log(`Character on last Index is : ${lastIndex}`);
         console.log(`Character on first Index is : ${firstChar}`);
         console.log(`The total words are available in the string is: ${words.length}`);
-        console.log(`The square of words length is : ${square}`);
+        console.log(`The square of total number of words in given string is : ${square}`);
 
         
         
