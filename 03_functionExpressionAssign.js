@@ -31,3 +31,15 @@ var Area=function(length,width){
     }
     var rectangle=Area(499,917)
     console.log(`The area of rectangle plot is==> ${rectangle}`);
+
+console.log("---------- Step 4 ---------------");
+console.log("---------- Swap The values --------");
+var swapValues=function(valueOne,valueTwo){
+        console.log("Before Swap==>",valueOne,valueTwo);
+        var temp=valueOne
+        valueOne=valueTwo
+        valueTwo=temp
+        console.log("After swap==>",valueOne,valueTwo);
+    }
+    swapValues("Mahi","Raina")
+    swapValues(55,77)
