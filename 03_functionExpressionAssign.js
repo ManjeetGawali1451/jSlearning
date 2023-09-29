@@ -21,3 +21,5 @@ console.log(`The square of 100 is ${square4}`);
 console.log(`The square of 67 is ${square5}`);
 console.log(`The square of 89 is ${square6}`);
 console.log(`The square of 59 is ${square7}`);
+console.log("----------- Step 2 -------------");
+console.log(`Type of function expression is: ${typeof(square)}`);
