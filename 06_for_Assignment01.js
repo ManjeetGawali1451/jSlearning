@@ -27,3 +27,11 @@ console.log("======= 10 Even Numbers =========");
 for (let index = 2; index<=20;index=index+2) {
             console.log(index);
 }
+
+console.log("------- Step 5 ----------");
+console.log("====== 5 table =======")
+
+for (let index = 5; index<=50; index=index+5){
+        console.log(index);
+}
+    
