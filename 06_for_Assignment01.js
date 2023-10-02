@@ -20,4 +20,10 @@ for (let index = 1; index<=30; index=index+2) {
     console.log(index);
     
 }
-    
+
+console.log("-------- Step 4 ---------");
+console.log("======= 10 Even Numbers =========");
+
+for (let index = 2; index<=20;index=index+2) {
+            console.log(index);
+}
