@@ -2,7 +2,7 @@
 
 console.log("====== Function type:function with no arguments and no return type ===== ");
 function myPersonalDetails(){
-    console.log("Name: GK");
+    console.log("Name: Manjeet");
     console.log('city: Pune');
     console.log('PIN CODE: 123456');
     console.log('Is married: YES');
