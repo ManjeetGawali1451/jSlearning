@@ -13,4 +13,11 @@ console.log("--------- Step 2 ------------");
         console.log(index);
 
 }
+
+console.log("---------- Step 3 ----------");
+console.log("======= 15 odd numbers =======");
+for (let index = 1; index<=30; index=index+2) {
+    console.log(index);
+    
+}
     
