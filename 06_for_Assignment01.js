@@ -29,9 +29,16 @@ for (let index = 2; index<=20;index=index+2) {
 }
 
 console.log("------- Step 5 ----------");
-console.log("====== 5 table =======")
+console.log("====== Table of 5 =======")
 
 for (let index = 5; index<=50; index=index+5){
         console.log(index);
 }
+
+console.log("------- Step 6 --------");
+console.log("======== Table o10 10 ");
+
+for (let index = 10; index<=100 ; index=index+10) {
+    console.log(index);;
     
+}    
