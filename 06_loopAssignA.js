@@ -1,5 +1,5 @@
 
-console.log("====== Assignent ======");
+console.log("====== Assignment ======");
 console.log("****** Step 1 ********");
 var str="I am very good IT developer"
 var count=0
@@ -30,7 +30,7 @@ cube()
     console.log("***** Step 3 *******");
     function oddPositionalCharacters(str1){
     for (let index = 0; index<str.length-1 ; index++){ 
-    if (index%2!=0 && str1.charAt(index)!="") {
+    if (index%2!=0 && str1.charAt(index)!=" ") {
         console.log(str1.charAt(index));
         
     }
