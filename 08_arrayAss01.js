@@ -12,5 +12,15 @@ for (let index = 0; index < array.length; index++) {
     }
     
 }
+    
 
+console.log("------ step 2 --------");
+    let  arrayNumbers = [21, 11, 44, 55, 77, 33];
+let sum = 0;
+
+for (let i = 0; i < arrayNumbers.length; i++) {
+  sum += arrayNumbers[i];
+}
+
+console.log("The total sum of the array elements is:", sum);    
    
