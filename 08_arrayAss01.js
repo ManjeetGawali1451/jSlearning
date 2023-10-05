@@ -22,5 +22,5 @@ for (let i = 0; i < arrayNumbers.length; i++) {
   sum += arrayNumbers[i];
 }
 
-console.log("The total sum of the array elements is:", sum);    
+console.log(`The total sum of the array elements is ${sum}`);    
    
