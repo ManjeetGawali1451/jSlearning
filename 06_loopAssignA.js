@@ -27,3 +27,17 @@ console.log("****** Step 2 *******");
     }
 cube()
     
+    console.log("***** Step 3 *******");
+    function oddPositionalCharacters(str1){
+    for (let index = 0; index<str.length-1 ; index++){ 
+    if (index%2!=0 && str1.charAt(index)!="") {
+        console.log(str1.charAt(index));
+        
+    }
+    }
+    }
+    console.log("====== String 1 ======");
+    oddPositionalCharacters("Hard Work always pays back")
+    console.log("====== String 2 =======");
+    oddPositionalCharacters("Soon I will be the UI IT Champ")
+
