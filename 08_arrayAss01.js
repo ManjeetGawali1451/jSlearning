@@ -24,3 +24,5 @@ for (let i = 0; i < arrayNumbers.length; i++) {
 
 console.log(`The total sum of the array elements is ${sum}`);    
    
+
+

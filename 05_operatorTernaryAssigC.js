@@ -11,11 +11,10 @@ function maleMarriageEligibility(gender,age,boyName) {
         
     
 }
-var male = maleMarriageEligibility("Male",25,"Billgates")
-var male2 = maleMarriageEligibility("Male",17,"Stew Jobs")
-console.log(male);
-console.log(male2);
-
+ var male1=maleMarriageEligibility("Male",25,"Billgates")
+ var male2=maleMarriageEligibility("Male",17,"Stew Jobs")
+ console.log(male1);
+ console.log(male2);
 console.log("=========== Step 2 ===========");
 function femaleMarraigeEligibility(gender,age,girlName) {
     var result=gender=='Female'&& age<=18
