@@ -53,8 +53,6 @@ for (const index in  arrayEvenPositioned) {
         
                 
     }
-        sumEvenPositionedNumbers  +=arrayEvenPositioned[index]
-        console.log(sumEvenPositionedNumbers);
 }
 
         
@@ -68,3 +66,48 @@ for (const index in  arrayoddPositioned) {
         console.log(num4);
     }
 }
+console.log("-------------------------------------------------------------------------");
+console.log("Sum of all elemenst");
+let  arraySum = [20,31,40,25,23,11,29,9,60,2,11];
+console.log(arraySum);
+let sum = 0;
+
+for (let i = 0; i < arraySum.length; i++) {
+  sum += arraySum[i];
+}
+console.log(`The total sum of the array elements is ${sum}`); 
+console.log("--------------------------------------------------------------------------");
+console.log("The numbers which can multiply by 5");
+
+var arrayMultiply=[20,31,40,25,23,11,29,9,60,2,11]
+
+for (const index in arrayMultiply) {
+    let num4=arrayMultiply[index]
+    if (num4%5==0) {
+        
+   const element = arrayMultiply[index];
+    console.log(num4);
+    }
+}
+console.log("--------------------------------------------------------------------------");
+console.log("is number 115 is available or not");
+var arrayAvailable=[20,31,40,25,23,11,29,9,60,2,11]
+var includes=arrayAvailable.includes(115)
+console.log(includes);
+console.log(`The number 115 is not available in array list`);
+console.log("--------------------------------------------------------------------------");
+console.log("is 23 is available in array string");
+var arrayAvailable2=[20,31,40,25,23,11,29,9,60,2,11]
+var includes=arrayAvailable2.includes(23)
+console.log(includes);
+console.log(`The number 23 is  available in array list`);
+console.log("--------------------------------------------------------------------------");
+console.log("Insert numbers 55, 66 before index 3");
+var arrayInsert=[20,31,40,25,23,11,29,9,60,2,11]
+var splice=arrayInsert.splice(3,0, 55,66)
+console.log(arrayInsert);
+console.log("--------------------------------------------------------------------------");
+console.log("Delete 3 element from Index 4");
+var arrayDelete=[20, 31, 40, 25, 23, 11, 29, 9, 60, 2, 11]
+var splice=arrayDelete.splice(4,3)
+console.log(splice);
