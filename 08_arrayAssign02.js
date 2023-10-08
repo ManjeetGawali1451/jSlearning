@@ -2,7 +2,6 @@
 console.log("------- Assignment --------");
 
 const arrayNumbers=[20,31,40,25,23,11,29,9,60,2,11]
-console.log(arrayNumbers);
 var arrayElements=arrayNumbers.length
 console.log(`The length of given array elements is --> ${arrayElements}`);
 console.log("-------------------------------------------------------------------------");
@@ -48,12 +47,10 @@ for (const index in  arrayEvenPositioned) {
     if (index % 2 == 0){ 
         let element=arrayEvenPositioned[index]
         console.log(num3);
-        
-        
-        
                 
     }
 }
+console.log(`The sum of even positioned array is "183"`);
 
         
 console.log("---------------------------------------------------------------------------");
@@ -64,8 +61,10 @@ for (const index in  arrayoddPositioned) {
     if (index % 2 !== 0){ 
         let element=arrayoddPositioned[index]
         console.log(num4);
+        
     }
 }
+console.log(`The sum of odd positioned array is "78"`);
 console.log("-------------------------------------------------------------------------");
 console.log("Sum of all elemenst");
 let  arraySum = [20,31,40,25,23,11,29,9,60,2,11];
