@@ -93,4 +93,4 @@ console.log(personElon.kidsName[0]);
 console.log(personElon.kidsName.length);
 console.log(personElon.kidsName.push("Steve"));
 console.log(personElon.kidsName);
-console.log(personElon.companies.tesla.location);
+console.log(personElon.companies.tesla.location);           
