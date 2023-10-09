@@ -23,12 +23,12 @@ console.log("Bank Sbi literals:");
  console.table(bankSbi);
  console.log("bank location literals");
 console.table(bankLocation);
- console.log("Bank sbi object cloned to bank clone");
- const bankclone = Object.assign({},bankSbi );
- console.table(bankclone);
+ console.log("Bank sbi object cloned to bank details");
+ const bankDetails1 = Object.assign({},bankSbi );
+ console.table(bankDetails1);
  console.log("Bank Location object cloned with bank deatils");
- const bankDetails=Object.assign({},bankLocation)
- console.table(bankDetails);
+ const bankDetails2=Object.assign({},bankLocation)
+ console.table(bankDetails2);
  console.log("Rate of Interest Literals:");
  console.table(rateOfInterest);
  console.log("Merged step1 , step2 and step4 with Sbi Details Object");
