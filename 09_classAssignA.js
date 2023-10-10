@@ -72,5 +72,17 @@ console.log(`College Details : College Name--> ${collegeDetails1.collegeName} Lo
 console.log(`College Details : College Name--> ${collegeDetails2.collegeName} Location -->  ${collegeDetails2.location} Education Field -->  ${collegeDetails2.educationField} College Establish --> ${collegeDetails2.collageEstablish} `)
 console.log(`College Details : College Name--> ${collegeDetails3.collegeName} Location -->  ${collegeDetails3.location} Education Field --> ${collegeDetails3.educationField} College Establish --> ${collegeDetails3.collageEstablish} `);
 console.log(`College Details : College Name--> ${collegeDetails4.collegeName} Location -->  ${collegeDetails4.location} Education Field --> ${collegeDetails4.educationField} College Establish --> ${collegeDetails4.collageEstablish} `);
+console.log("=========================================================================================================");
+console.log("------------- Step 3 ---------------");
+function transverseObject(objectCollege) {
+for (const key in objectCollege) {
+                    
+        console.log(college);
+}
+}
+                    
 
-
+transverseObject(collegeDetails1.collegeName)
+transverseObject(collegeDetails2.location)
+transverseObject(collegeDetails3.educationField)
+transverseObject(collegeDetails4.collageEstablish)
