@@ -74,3 +74,30 @@ console.log(`College Details : College Name--> ${collegeDetails3.collegeName} Lo
 console.log(`College Details : College Name--> ${collegeDetails4.collegeName} Location -->  ${collegeDetails4.location} Education Field --> ${collegeDetails4.educationField} College Establish --> ${collegeDetails4.collageEstablish} `);
 console.log("=========================================================================================================");
 console.log("------------- Step 3 ---------------");
+
+class collegeTransverse{
+  constructor(collegeName,location,educationField,collageEstablish){
+    this.collegeName=collegeName;
+    this.location=location;
+    this.educationField=educationField;
+    this.collageEstablish=collageEstablish;
+  }
+}
+const college1= new  college  ("Sinhagad Institude","Sinhagad Road,Pune","Engineering","1996")
+const college2= new  college  ("SM Joshi College","Hadapsar,Pune","Computer Science","1992")
+const college3= new  college  ("Fergusion Colleg","FC Road,Pune","Arts and Science","1885")
+const college4=  new college  ("DY Patil University","Pimpari,Pune","Computer Science","1992")
+
+function transverseObject(colObject) {
+  for (const key in colObject) {
+                    console.log(` ${key}   -->   ${colObject[key]}`);                                                     
+ }
+}
+transverseObject(college1)
+console.log("==========================================================");
+transverseObject(college2);
+console.log("==========================================================");
+transverseObject(college3);
+console.log("==========================================================");
+transverseObject(college4);
+console.log("==========================================================");
