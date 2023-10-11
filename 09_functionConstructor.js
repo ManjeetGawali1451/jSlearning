@@ -23,4 +23,3 @@ console.log(hdfcBank.country);
 sbiBank.show();
 axisBank.show();
 console.log(axisBank instanceof Bank);
-console.log(hdfcBank instanceof College);
