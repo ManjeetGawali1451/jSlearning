@@ -16,3 +16,7 @@ let collegeDetails={
              Established:'1995'       
 }
 console.log("College Details:",collegeDetails);
+
+console.log("-------- Step 3 --------");
+Object.assign(personDetails,collegeDetails)
+console.table(personDetails);
