@@ -35,7 +35,7 @@ console.log("=============================================");
 console.log(" 5--> Merged Three object in sbi Details");
 let sbiDetails=Object.assign(bankSbi,bankLocation,rateOfInterest)
 console.table(sbiDetails);
-console.log("5-->Transversing The Merged object");
+console.log("6-->Transversing The Merged object");
 for (const key in sbiDetails) {
   console.log(`${key}: ${sbiDetails[key]}`);
 }
