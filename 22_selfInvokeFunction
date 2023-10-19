@@ -1,0 +1,4 @@
+console.log("imediatelly function expression");
+(function(){
+    console.log(' Inside IIFE ');
+})()
