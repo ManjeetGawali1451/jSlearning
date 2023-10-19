@@ -34,3 +34,8 @@ arrayEmployee.forEach((Employee) => {
      }               
 })
 console.log("---------------------------------------------------------------------------------------------");
+console.log("----- Step 3 ------");
+console.log(`Employees Names starts with R`);
+console.log(emp_Radha);
+console.log(emp_Rishi);
+console.log("---------------------------------------------------------------------------------------------");
