@@ -19,7 +19,7 @@ const emp_Mahi = new Employee(66, "Mahesh", "HR", 85000, "Infy");
 
 const arrayEmployee=[emp_Anil,emp_Radha,emp_Rishi,emp_Sonali,emp_Monika,emp_Viny,emp_Mahi]
 console.log("----- Step 1 ------");
- console.log(`Employees Working In TCS`);
+ console.log(`Employees Working In TCS:`);
  arrayEmployee.forEach((Employee) => {
  if(Employee.emp_company=="TCS"){
                     console.log(`${Employee.emp_name} ${Employee.emp_company}`);
@@ -27,7 +27,7 @@ console.log("----- Step 1 ------");
 })
 console.log("---------------------------------------------------------------------------------------------");
 console.log("----- Step 2 ------");
-console.log(`Finance Department Employees`);
+console.log(`Finance Department Employees:`);
 arrayEmployee.forEach((Employee) => {
      if (Employee.emp_depart=="Finance") {
                    console.log(`${Employee.emp_name} ${Employee.emp_depart}`); 
@@ -35,20 +35,20 @@ arrayEmployee.forEach((Employee) => {
 })
 console.log("---------------------------------------------------------------------------------------------");
 console.log("----- Step 3 ------");
-console.log(`Employees Names starts with R`);
+console.log(`Employees Names starts with R:`);
 console.log(emp_Radha);
 console.log(emp_Rishi);
 console.log("---------------------------------------------------------------------------------------------");
 console.log("----- Step 4 ------");
-console.log(`Employees Whose salary is greater than 75000`);
+console.log(`Employees Whose salary is greater than 75000:`);
 arrayEmployee.forEach((Employee) =>{
             if (Employee.emp_salary>75000) {
                     console.log(`${Employee.emp_name} ${Employee.emp_company} ${Employee.emp_salary}`);
             }        
 })
 console.log("---------------------------------------------------------------------------------------------");
-console.log("----- Step 4 ------");
-console.log(`Employees whose salary is Greater Than is Equal to 50000 and form IT Department`);
+console.log("----- Step 5 ------");
+console.log(`Employees whose salary is Greater Than is Equal to 50000 and form IT Department:`);
 arrayEmployee.forEach((Employee)=>{
               if (Employee.emp_salary>=50000 && Employee.emp_depart=="IT") {
                     console.log(Employee);
