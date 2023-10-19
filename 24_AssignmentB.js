@@ -39,3 +39,18 @@ console.log(`Employees Names starts with R`);
 console.log(emp_Radha);
 console.log(emp_Rishi);
 console.log("---------------------------------------------------------------------------------------------");
+console.log("----- Step 4 ------");
+console.log(`Employees Whose salary is greater than 75000`);
+arrayEmployee.forEach((Employee) =>{
+            if (Employee.emp_salary>75000) {
+                    console.log(`${Employee.emp_name} ${Employee.emp_company} ${Employee.emp_salary}`);
+            }        
+})
+console.log("---------------------------------------------------------------------------------------------");
+console.log("----- Step 4 ------");
+console.log(`Employees whose salary is Greater Than is Equal to 50000 and form IT Department`);
+arrayEmployee.forEach((Employee)=>{
+              if (Employee.emp_salary>=50000 && Employee.emp_depart=="IT") {
+                    console.log(Employee);
+              }      
+})
