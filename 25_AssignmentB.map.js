@@ -45,6 +45,8 @@ console.log(`List of All Departments:`);
 console.log(arrayDept);
 
 console.log("========================================================================================");
+console.log(`------ Step 3 ------`);
+console.log(`List of Employee Id:`);  
 const arrayId = arrayEmployees.map((id) => {
   return id.emp_id;
 });
