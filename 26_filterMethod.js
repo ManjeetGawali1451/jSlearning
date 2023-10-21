@@ -50,6 +50,16 @@ const arrayNum2 = array.filter((currentValue) => {
 
  // 2. Only TCS employees
 
+ const arrayEmployee=[
+   emp_anil,
+   emp_radha,
+   emp_rishi,
+   emp_sonali,
+   emp_monica,
+   emp_viny,
+   emp_mahi,
+ ]
+
  const arrayTcsEmployees=arrayEmployee.filter( (employee) => {
 
     return employee.emp_company=='TCS';
@@ -60,9 +70,9 @@ const arrayNum2 = array.filter((currentValue) => {
 
  const arrayTcsSalary = arrayTcsEmployees.map( (employee)=> {
 
-    return employee.emp_salary;
+    return employee.emp_salary
 
- } );
+ } )
 
  
 
