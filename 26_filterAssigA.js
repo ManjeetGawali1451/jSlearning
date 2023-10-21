@@ -27,3 +27,13 @@ const arrayEven = arrayNumbers.filter((currentvalues) => {
 
  })
   console.log(arrayOdd);
+
+  console.log(
+    "========================================================================================="
+  );
+  console.log(`----- Step 3 ----`);
+  console.log(`values which are multiple of 5`);
+  const arrayMul5 = arrayNumbers.filter((currentvalues) => {
+    return currentvalues % 5==0 ;
+  });
+  console.log(arrayMul5);
