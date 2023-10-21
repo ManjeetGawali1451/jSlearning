@@ -28,12 +28,18 @@ const arrayEven = arrayNumbers.filter((currentvalues) => {
  })
   console.log(arrayOdd);
 
-  console.log(
-    "========================================================================================="
-  );
-  console.log(`----- Step 3 ----`);
+  console.log("=========================================================================================");
+  console.log(`----- Step 4 ----`);
   console.log(`values which are multiple of 5`);
   const arrayMul5 = arrayNumbers.filter((currentvalues) => {
     return currentvalues % 5==0 ;
   });
   console.log(arrayMul5);
+
+  console.log("=========================================================================================");
+  console.log(`----- Step 5 ----`);
+  console.log(`values Between 20 and 50`);
+  const arrayNum = arrayNumbers.filter((currentvalues) => {
+    return currentvalues>=20 & currentvalues<=50;
+  });
+  console.log(arrayNum);
