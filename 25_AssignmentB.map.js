@@ -35,4 +35,17 @@ const arrayEmployee=arrayEmployees.map((employee)=>{
   console.log(`------ Step 1 ------`);
   console.log(`List of Employee Salary:`);  
   console.log(arrayEmployee);
+console.log("========================================================================================");
 
+const arrayDept=arrayEmployees.map((department)=>{
+      return department.emp_depart
+})
+console.log(`------ Step 2 ------`);
+console.log(`List of All Departments:`);  
+console.log(arrayDept);
+
+console.log("========================================================================================");
+const arrayId = arrayEmployees.map((id) => {
+  return id.emp_id;
+});
+console.log(arrayId);
