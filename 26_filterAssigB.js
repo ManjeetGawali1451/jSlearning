@@ -37,7 +37,7 @@ const arrayEmployees = [
   emp_mahi,
 ];
 console.log(`----- Step 1 -----`);
-console.log(`Traversing Tcs employees`);
+console.log(`Traversing Tcs employees:`);
 const arrayTcsEmployees = arrayEmployees.filter((employee) => {
   return employee.emp_company == "TCS";
 });
@@ -45,3 +45,20 @@ const arrayTcsEmployees = arrayEmployees.filter((employee) => {
 arrayTcsEmployees.forEach(employee => {
                  console.log(`Company -->${employee.emp_company} Name--> ${employee.emp_name}`);   
 });
+console.log(`================================================================================`);
+console.log(`------ Step 2 --------`);
+const arrayWiproEmployees = arrayEmployees.filter((employee) => {
+  return employee.emp_company == "Wipro";
+});
+const arrayTransform = arrayWiproEmployees.map((employee) => {
+  return employee.emp_salary;
+                
+ 
+});
+ 
+let sum=0
+for (let index = 0; index < arrayTransform.length; index++) {
+                    sum += arrayTransform[index];
+                    
+}
+   console.log(` The Average salary of Employee from company wipro is :${sum/arrayTransform.length}`);
