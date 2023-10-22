@@ -69,5 +69,4 @@ const arrayEmployees = [
 const arrayEmpNames = arrayEmployees.map((employee) => {
   return employee.emp_name;
 });
-
 console.log(arrayEmpNames);
