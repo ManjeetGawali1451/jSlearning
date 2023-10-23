@@ -71,10 +71,11 @@ for (let index = 0; index < arrayTransform.length; index++) {
    const arrayTransform2 = arrayWiproInfyEmployees.map((employee) => {
      return employee.emp_salary;
    });
-    
-
+   
+   
    let sum2 = 0;
    for (let index = 0; index < arrayTransform2.length; index++) {
      sum2 += arrayTransform2[index];
    }
+   
    console.log(` The Average salary of Employee from company Wipro or Infy is :${sum2 / arrayTransform2.length}`);
