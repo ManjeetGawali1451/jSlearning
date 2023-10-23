@@ -8,3 +8,9 @@ console.log(`===================================================================
 console.log(`----- Step 2 --------`);
 const sortedArray=array.sort()
 console.log(`Sorted Array --> ${sortedArray}`);
+console.log(`===========================================================================`);
+console.log(`----- Step 3 --------`);
+const ascendingArray = array.sort((a, b) => {
+  return a > b ? 1 : -1;
+});
+console.log(`Array in Ascending Order --> ${ascendingArray}`);
