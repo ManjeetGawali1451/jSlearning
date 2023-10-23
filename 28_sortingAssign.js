@@ -14,3 +14,13 @@ const ascendingArray = array.sort((a, b) => {
   return a > b ? 1 : -1;
 });
 console.log(`Array in Ascending Order --> ${ascendingArray}`);
+console.log(`===========================================================================`);
+console.log(`----- Step 4 --------`);
+let newArray=array[array.length-1]
+console.log(`Greatest Number --> ${newArray}`);
+console.log(`===========================================================================`);
+console.log(`----- Step 5 --------`);
+
+let smallNumber=array[0]
+console.log(`Smallest Number --> ${smallNumber}`);
+
