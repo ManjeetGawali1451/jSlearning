@@ -11,7 +11,7 @@ console.log(`Sorted Array --> ${sortedArray}`);
 console.log(`===========================================================================`);
 console.log(`----- Step 3 --------`);
 const ascendingArray = array.sort((a, b) => {
-  return a > b ? 1 : -1;
+  return a > b ? 1 : -1;  
 });
 console.log(`Array in Ascending Order --> ${ascendingArray}`);
 console.log(`===========================================================================`);
@@ -20,7 +20,10 @@ let newArray=array[array.length-1]
 console.log(`Greatest Number --> ${newArray}`);
 console.log(`===========================================================================`);
 console.log(`----- Step 5 --------`);
-
 let smallNumber=array[0]
 console.log(`Smallest Number --> ${smallNumber}`);
+console.log(`===========================================================================`);
+console.log(`----- Step 5 --------`);
+let arrayNumber = [...new Set(array)];
+console.log(`Removed Duplicate values--> ${arrayNumber}`);
 

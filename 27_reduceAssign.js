@@ -81,5 +81,5 @@ const itDept=arrayEmps.filter((employee)=>{
   return employee.emp_dept=="IT"
 })
 
-console.log(`The sum of It salary is --> 165000`);
-console.log(`The average salary of It compnay is --> 55000`);
+console.log(`The sum of It Dept salary is --> 165000`);
+console.log(`The average salary of It Dept is --> 55000`);
