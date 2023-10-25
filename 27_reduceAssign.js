@@ -68,14 +68,13 @@ const employeeNamesAVM=arrayEmps.filter((employee)=>{
 console.table(employeeNamesAVM);
 console.log(`============================================================================`);
 console.log(`--- Step 5 --- `);
-const empSalary=arrayEmps.filter((employee)=>{
-   return employee.emp_salary
+const empSalary=arrayEmps.filter((emp1,emp2)=>{
+   return emp1.empSalary+emp2.empSalary
 })
+console.log(empSalary.length/2);
 
 
 
-console.log(`The addition of Salary is --> 416000`);
-console.log(`The Average salary of all Dept is --> 59428.571428571 `);
 console.log(`-----------------------------------------------------------------`);
 const itDept=arrayEmps.filter((employee)=>{
   return employee.emp_dept=="IT"
