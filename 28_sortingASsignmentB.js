@@ -37,10 +37,19 @@ const arrayEmployees = [
   emp_viny,
   emp_mahi,
 ];
+  console.log(`------ Step 1 ----`);
+  console.log(`Descending order`);
   const sortArray=arrayEmployees.sort((emp1,emp2)=>{
       return emp1.emp_id>emp2.emp_id?-1:1
   })
   arrayEmployees.forEach(sortArray=> {
-    console.log(`Employee Id -->${sortArray.emp_id},    Employee Name ${sortArray.emp_name},      Employee Dept ${sortArray.emp_dept}`);
+    console.log(`Employee Id -->${sortArray.emp_id}    Employee Name ${sortArray.emp_name}      Employee Dept ${sortArray.emp_dept}`);
     
   });
+  console.log(`================================================================================`);
+  const sortArray2=arrayEmployees.sort((emp1,emp2)=>{
+      return emp1.emp_dept>emp2.emp_dept?1 : -1
+  })
+  arrayEmployees.forEach(sortArray2=>{
+     console.log(`Employee Id -> ${sortArray2.emp_id}    Employee Dept --> ${sortArray2.emp_dept}         Employee Company -->${sortArray2.emp_company}`);
+  })
