@@ -10,12 +10,12 @@ let myName = firstName; // Deep Clone
  
 
 console.log(myName);
-
+console.log(`========================`);
 firstName = 'GK';
 
 console.log(myName);
 
- 
+ console.log(`========================`);
 
 myName = 'Ganesh';
 
@@ -45,7 +45,11 @@ elonPerson.city= "Mumbai";
 
 console.log(elonPerson.city); // 
 
+console.log(`========================`);
+
 console.log(person.city);
+
+console.log(`========================`);
 
 let stdNagesh = {
   name: "Nagesh",
@@ -76,7 +80,7 @@ let stdJenny = {
     english: 56,
   },
 };
-
+console.log(`========================`);
 let stdBill = JSON.parse(JSON.stringify(stdJenny)); // Deep clone when we have nested object
 
 stdBill.name = "Billgates";
