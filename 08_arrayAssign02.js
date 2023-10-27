@@ -41,16 +41,12 @@ for (const index in arrayOddNumebrs) {
 console.log("---------------------------------------------------------------------------");
 console.log("Find Even Positioned elements");
 var arrayEvenPositioned=[20,31,40,25,23,11,29,9,60,2,11]
-for (const index in  arrayEvenPositioned) {
-    var num3=arrayEvenPositioned[index]
-    
-    if (index % 2 == 0){ 
-        let element=arrayEvenPositioned[index]
-        console.log(num3);
-                
-    }
+var sum2=0
+for (let index = 0; index <= arrayEvenPositioned.length; index++) {
+    sum2=sum2+index
+    console.log(sum2);
 }
-console.log(`The sum of even positioned array is "183"`);
+
 
         
 console.log("---------------------------------------------------------------------------");
@@ -84,7 +80,7 @@ for (const index in arrayMultiply) {
     let num4=arrayMultiply[index]
     if (num4%5==0) {
         
-   const element = arrayMultiply[index];
+   
     console.log(num4);
     }
 }
