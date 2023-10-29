@@ -3,7 +3,7 @@
 
 // firstName = 'Jenny'; // Not allowed in strict mode
 
-// console.log(firstName);
+ //console.log(firstName);
 
 let person = {
   fullName: "Billgates",
